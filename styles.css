@@ -778,7 +778,7 @@ main {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 40px;
-    align-items: center;
+    align-items: start;
 }
 
 .story-block {
@@ -839,6 +839,8 @@ main {
 
 .fp-screenshot {
     width: 100%;
+    height: 260px;
+    object-fit: cover;
     display: block;
     filter: brightness(0.85);
     transition: var(--transition);
